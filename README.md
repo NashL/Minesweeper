@@ -21,11 +21,13 @@ rails db:seed # this will create 20 random boards for you
 
 ```
 
-Start the server using ```ruby
+Start the server using 
+
+```ruby
 rails s
 ```
 
-You can visit http://localhost:300
+You can visit http://localhost:3000 to see the site
 
 ## Tests
 
