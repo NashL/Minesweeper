@@ -16,8 +16,17 @@ Minesweeper is an application for creating sample board designs
 rails db:create db:migrate
 
 # Optional you can seed your database with default boards
-rails db:seed
+
+rails db:seed # this will create 20 random boards for you
+
 ```
+
+Start the server using ```ruby
+rails s
+```
+
+You can visit http://localhost:300
+
 ## Tests
 
 ```ruby
