@@ -1,24 +1,33 @@
-# README
+# Minesweeper
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Minesweeper is an application for creating sample board designs
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+- You need Ruby 3.0.0 version
 
-* System dependencies
+- Rails version "~> 7.0.2", ">= 7.0.2.4"
 
-* Configuration
+- PostgreSQL. Versions 9.3 and up are supported.
 
-* Database creation
+## Installation
 
-* Database initialization
+```ruby
+rails db:create db:migrate
 
-* How to run the test suite
+# Optional you can seed your database with default boards
+rails db:seed
+```
+## Tests
 
-* Services (job queues, cache servers, search engines, etc.)
+```ruby
+rspec 
+```
 
-* Deployment instructions
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-* ...
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
