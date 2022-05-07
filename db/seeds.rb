@@ -7,9 +7,9 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 (1..20).each do |n|
-  width =  rand(5 + 10)
-  height =  rand(5 + 10)
-  mines = rand(3 + 10)
+  width =  5 + rand(10)
+  height =  5 + rand(10)
+  mines = 3 + rand( 10)
   puts "n: #{n} | width: #{width} | height: #{height} | mines: #{mines} |"
   Board.create!(name: "Mines #{n}", email: "Test#{n}@asdasd.com", width: width, height: height, mines: mines)
 end
